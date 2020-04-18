@@ -1,7 +1,7 @@
 
 
 jcb(Answer) :-
-    % 682; 1 right & in placeso
+    % 682; 1 right & in place
     mastermind([6,8,2],Answer,1,0),
     % 614; 1 right but wrong place
     mastermind([6,1,4],Answer,0,1),
