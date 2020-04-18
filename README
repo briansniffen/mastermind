@@ -1,0 +1,11 @@
+# Mastermind solver
+
+This is a solver for generalized Mastermind, based on a problem
+circulating on the web at
+<https://interestingengineering.com/solve-the-open-the-lock-puzzle-that-has-internet-puzzled>.
+My friends were more interested in which rules were inessential, and
+which were shadowed by which others particularly.  It turns out---says
+the code in `revised.pl`---that if you have rules 0,1,2, you don't
+need any of 3,4,5.
+
+See more at <https://weblog.evenmere.org/posts/2020-04-18-reflective-prolog.html>.
